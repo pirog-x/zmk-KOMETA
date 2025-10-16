@@ -54,10 +54,10 @@
 
         num_layer {
             bindings = <
-&none  &kp F12               &kp F7           &kp F8            &kp F9              &none         &kp PLUS     &kp N7                    &kp N8            &kp N9                  &kp ASTERISK            &none
-&none  &hr F10 LEFT_CONTROL  &hr F4 LEFT_ALT  &hr F5 LEFT_GUI   &hr F6 LEFT_SHIFT   &none         &kp MINUS    &hr NUMBER_4 RIGHT_SHIFT  &hr N5 RIGHT_GUI  &hr NUMBER_6 RIGHT_ALT  &kp N0         &kp EQUAL
-&none  &kp F11               &kp F1           &kp F2            &kp F3              &none         &kp PERIOD   &kp NUMBER_1              &kp NUMBER_2      &kp NUMBER_3            &kp SLASH             &none
-                                              &trans            &trans              &lt 4 DELETE  &lt 4 ENTER  &trans                    &trans
+&none  &kp F12               &kp F7           &kp F8           &kp F9             &none         &kp PLUS     &kp N7                    &kp N8            &kp N9                  &kp ASTERISK  &none
+&none  &hr F10 LEFT_CONTROL  &hr F4 LEFT_ALT  &hr F5 LEFT_GUI  &hr F6 LEFT_SHIFT  &none         &kp MINUS    &hr NUMBER_4 RIGHT_SHIFT  &hr N5 RIGHT_GUI  &hr NUMBER_6 RIGHT_ALT  &kp N0        &kp EQUAL
+&none  &kp F11               &kp F1           &kp F2           &kp F3             &none         &kp PERIOD   &kp NUMBER_1              &kp NUMBER_2      &kp NUMBER_3            &kp SLASH     &none
+                                              &trans           &trans             &lt 4 DELETE  &lt 4 ENTER  &trans                    &trans
             >;
         };
 
@@ -81,10 +81,10 @@
 
         adjust_layer {
             bindings = <
-&none           &sys_reset    &bootloader   &out OUT_TOG  &ext_power EP_TOG  &soft_off  &soft_off  &ext_power EP_TOG  &out OUT_TOG  &bootloader  &sys_reset  &none
-&bt BT_CLR_ALL  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4       &kp J      &none      &none              &none         &none        &none       &none
-&none           &none         &bt BT_CLR    &none         &none              &none      &none      &none              &none         &none        &none       &none
-                                            &trans        &none              &trans     &trans     &none              &trans
+&none           &none         &none         &none         &sys_reset    &out OUT_TOG  &soft_off  &ext_power EP_TOG  &out OUT_TOG  &bootloader  &sys_reset  &none
+&bt BT_CLR_ALL  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none         &none      &none              &none         &none        &none       &none
+&none           &none         &bt BT_CLR    &none         &none         &bootloader   &none      &none              &none         &none        &none       &none
+                                            &trans        &none         &trans        &trans     &none              &trans
             >;
         };
     };
