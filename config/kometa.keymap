@@ -23,6 +23,7 @@
             tapping-term-ms = <200>;
             flavor = "hold-preferred";
             hold-while-undecided;
+            hold-trigger-on-release;
         };
     };
 
