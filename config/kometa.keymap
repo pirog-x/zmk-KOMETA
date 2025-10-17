@@ -62,7 +62,7 @@
 &none  &kp F12               &kp F7           &kp F8           &kp F9             &none         &kp PLUS     &kp N7                    &kp N8                  &kp N9                  &kp ASTERISK                &none
 &none  &hr LEFT_CONTROL F10  &hr LEFT_ALT F4  &hr LEFT_GUI F5  &hr LEFT_SHIFT F6  &none         &kp MINUS    &hr RIGHT_SHIFT NUMBER_4  &hr RIGHT_GUI NUMBER_5  &hr RIGHT_ALT NUMBER_6  &hr RIGHT_CONTROL NUMBER_0  &kp EQUAL
 &none  &kp F11               &kp F1           &kp F2           &kp F3             &none         &kp PERIOD   &kp NUMBER_1              &kp NUMBER_2            &kp NUMBER_3            &kp SLASH                   &none
-                                              &trans           &trans             &lt 8 DELETE  &lt 8 ENTER  &trans                    &trans
+                                              &trans           &trans             &lt 6 DELETE  &lt 6 ENTER  &trans                    &trans
             >;
         };
 
@@ -89,7 +89,7 @@
 &none  &kp F12           &kp F7           &kp F8               &kp F9             &none         &kp PLUS     &kp N7                    &kp N8                      &kp N9                  &kp ASTERISK            &none
 &none  &hr LEFT_GUI F10  &hr LEFT_ALT F4  &hr LEFT_CONTROL F5  &hr LEFT_SHIFT F6  &none         &kp MINUS    &hr RIGHT_SHIFT NUMBER_4  &hr RIGHT_CONTROL NUMBER_5  &hr RIGHT_ALT NUMBER_6  &hr RIGHT_GUI NUMBER_0  &kp EQUAL
 &none  &kp F11           &kp F1           &kp F2               &kp F3             &none         &kp PERIOD   &kp NUMBER_1              &kp NUMBER_2                &kp NUMBER_3            &kp SLASH               &none
-                                          &trans               &trans             &lt 8 DELETE  &lt 8 ENTER  &trans                    &trans
+                                          &trans               &trans             &lt 6 DELETE  &lt 6 ENTER  &trans                    &trans
             >;
         };
 
@@ -107,7 +107,7 @@
 &none  &none            &none        &none      &none       &none        &none      &none          &none         &none                 &none                  &none
 &none  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
 &none  &none            &none        &none      &none       &none        &none      &none          &none         &none                 &none                  &none
-                                     &lt 8 TAB  &trans      &trans       &trans     &trans         &lt 8 ESCAPE
+                                     &lt 7 TAB  &trans      &trans       &trans     &trans         &lt 7 ESCAPE
             >;
         };
 
