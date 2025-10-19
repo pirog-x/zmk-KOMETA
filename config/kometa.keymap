@@ -77,18 +77,18 @@
 
         linux_base_layer {
             bindings = <
-&kp RIGHT_BRACKET  &kp Q           &kp W           &kp E               &kp R             &kp T         &kp Y        &kp U              &kp I                &kp O            &kp P                    &kp LEFT_BRACKET
-&kp GRAVE          &hr LEFT_GUI A  &hr LEFT_ALT S  &hr LEFT_CONTROL D  &hr LEFT_SHIFT F  &kp G         &kp H        &hr RIGHT_SHIFT J  &hr RIGHT_CONTROL K  &hr RIGHT_ALT L  &hr RIGHT_GUI SEMICOLON  &kp SINGLE_QUOTE
-&kp BSLH           &kp Z           &kp X           &kp C               &kp V             &kp B         &kp N        &kp M              &kp COMMA            &kp DOT          &kp FSLH                 &kp MINUS
+&kp RIGHT_BRACKET  &kp Q           &kp W           &kp E               &kp R             &kp T         &kp Y        &kp U              &kp I                &kp O           &kp P                    &kp LEFT_BRACKET
+&kp GRAVE          &hr LEFT_GUI A  &hr LEFT_ALT S  &hr LEFT_CONTROL D  &hr LEFT_SHIFT F  &kp G         &kp H        &hr RIGHT_SHIFT J  &hr RIGHT_CONTROL K  &hr LEFT_ALT L  &hr RIGHT_GUI SEMICOLON  &kp SINGLE_QUOTE
+&kp BSLH           &kp Z           &kp X           &kp C               &kp V             &kp B         &kp N        &kp M              &kp COMMA            &kp DOT         &kp FSLH                 &kp MINUS
                                                    &lt 4 TAB           &lt 5 BACKSPACE   &lt 6 DELETE  &lt 6 ENTER  &lt 5 SPACE        &lt 4 ESC
             >;
         };
 
         linux_num_layer {
             bindings = <
-&none  &kp F12           &kp F7           &kp F8               &kp F9             &none         &kp PLUS     &kp N7                    &kp N8                      &kp N9                  &kp ASTERISK            &none
-&none  &hr LEFT_GUI F10  &hr LEFT_ALT F4  &hr LEFT_CONTROL F5  &hr LEFT_SHIFT F6  &none         &kp MINUS    &hr RIGHT_SHIFT NUMBER_4  &hr RIGHT_CONTROL NUMBER_5  &hr RIGHT_ALT NUMBER_6  &hr RIGHT_GUI NUMBER_0  &kp EQUAL
-&none  &kp F11           &kp F1           &kp F2               &kp F3             &none         &kp PERIOD   &kp NUMBER_1              &kp NUMBER_2                &kp NUMBER_3            &kp SLASH               &none
+&none  &kp F12           &kp F7           &kp F8               &kp F9             &none         &kp PLUS     &kp N7                    &kp N8                      &kp N9                 &kp ASTERISK            &none
+&none  &hr LEFT_GUI F10  &hr LEFT_ALT F4  &hr LEFT_CONTROL F5  &hr LEFT_SHIFT F6  &none         &kp MINUS    &hr RIGHT_SHIFT NUMBER_4  &hr RIGHT_CONTROL NUMBER_5  &hr LEFT_ALT NUMBER_6  &hr RIGHT_GUI NUMBER_0  &kp EQUAL
+&none  &kp F11           &kp F1           &kp F2               &kp F3             &none         &kp PERIOD   &kp NUMBER_1              &kp NUMBER_2                &kp NUMBER_3           &kp SLASH               &none
                                           &trans               &trans             &lt 7 DELETE  &lt 7 ENTER  &trans                    &trans
             >;
         };
